@@ -1,0 +1,20 @@
+<?php
+
+echo $_SERVER["PHP_SELF"];
+ECHO "<BR>";
+echo $_SERVER["SERVER_NAME"];
+ECHO "<BR>";
+echo $_SERVER["HTTP_HOST"];
+ECHO "<BR>";
+echo $_SERVER["GATEWAY_INTERFACE"];
+ECHO "<BR>";
+echo $_SERVER["HTTP_USER_AGENT"];
+ECHO "<BR>";
+echo $_SERVER["SCRIPT_NAME"];
+ECHO "<BR>";
+echo $_SERVER["SERVER_ADDR"];
+ECHO "<BR>";
+echo $_SERVER["SERVER_PORT"];
+ECHO "<BR>";
+echo $_SERVER["REQUEST_METHOD"];
+?>
